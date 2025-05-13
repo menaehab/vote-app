@@ -7,7 +7,7 @@
         </h1>
         <div class="flex justify-center">
             @if (Auth::check())
-                <a href="#" class="bg-white mx-2 px-4 py-2 rounded-lg">
+                <a href="{{ route('vote.index', Auth::user()->slug) }}" class="bg-white mx-2 px-4 py-2 rounded-lg">
                     {{ __('keywords.votes') }}
                 </a>
             @else

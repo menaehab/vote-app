@@ -8,7 +8,8 @@
 
                 <div class=" flex items-center">
                     @if (Auth::check())
-                        <a href="#" class="text-white text-sm font-semibold hover:text-gray-600 ml-4">
+                        <a href="{{ route('vote.index', Auth::user()->slug) }}"
+                            class="text-white text-sm font-semibold hover:text-gray-600 ml-4">
                             {{ __('keywords.votes') }}
                         </a>
                         <form action="{{ route('logout') }}" method="POST">
