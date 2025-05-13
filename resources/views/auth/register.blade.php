@@ -52,7 +52,7 @@
                             @enderror
                         </div>
                         <button type="submit"
-                            class="w-full text-gray-900 border hover:border-gray-500 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:hover:border-gray-500 dark:focus:ring-gray-800 dark:text-white">
+                            class="w-full transition duration-300 text-gray-900 border hover:border-gray-500 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:hover:border-gray-500 dark:focus:ring-gray-800 dark:text-white">
                             {{ __('Register') }}
                         </button>
                         <p class="text-sm font-light text-gray-400 dark:text-gray-400">
